@@ -3,7 +3,8 @@ name: Lab2 ARM-Template Deploy Storage
 on: workflow_dispatch
 
 env:
-  AZURERG: iac-armlab2
+  AZURERG: ec-iac-armlab2
+  AZUREREGION: eastus
 
 jobs:
 
